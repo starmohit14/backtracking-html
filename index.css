@@ -1,0 +1,19 @@
+
+.sizing-content-example {
+    width: auto;
+    height: auto;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    padding: 6px;
+    display: inline-block;
+}
+
+.sizing-code-example {
+    width: 1300px;
+    height: auto;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    padding: 6px;
+    display: inline-block;
+    border: 2px solid gray;
+}
