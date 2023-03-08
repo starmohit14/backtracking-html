@@ -17,3 +17,21 @@
     display: inline-block;
     border: 2px solid gray;
 }
+
+ol {
+    list-style: none;
+    }
+    li {
+    counter-increment: item;
+    margin-bottom: 5px;
+    }
+    li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: #0000ff;;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+    }      
